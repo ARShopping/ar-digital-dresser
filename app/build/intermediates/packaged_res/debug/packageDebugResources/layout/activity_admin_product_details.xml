@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hoodie1" />
+
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Image" />
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name" />
+
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"
+        android:inputType="textMultiLine" />
+
+
+
+    <Button
+        android:id="@+id/btnUpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Product" />
+
+    <Button
+        android:id="@+id/btnDeleteProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+</LinearLayout>

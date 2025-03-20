@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AR Dresser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="cart_empty_message">Your Cart is Empty!</string>
+    <string name="cart_empty_image_description">Empty Cart</string>
+    <string name="title_activity_category">category</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="create_accout"><u>Don\'t have an account? Create one!</u></string>
+    <string name="already_have_account"><u>Already have an account? Log in</u></string>
+    <string name="profile_picture">User profile picture</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="username_placeholder">Username</string>
+    <string name="email_placeholder">email@example.com</string>
+    <string name="signing_out">Signing Out...</string>
+    <string name="error_loading_model">Error loading model</string>
+    <string name="inquiry_sent">Inquiry sent. Thank you for reaching out!</string>
+    <string name="enter_message_prompt">Please enter your message before sending.</string>
+    <string name="error_occurred">Error: %1$s</string>
+
+    <string name="app_title">AR DIGITAL DRESSER</string>
+    <string name="get_started">Get Started</string>
+    <string name="item_image">Item Image</string>
+
+
+    <!-- Bottom Sheet Strings -->
+    <string name="product_image">Product Image</string>
+    <string name="decrease_quantity">Decrease Quantity</string>
+    <string name="increase_quantity">Increase Quantity</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <!-- Size Options -->
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+
+    <!-- Toast Message -->
+    <string name="added_to_cart">Added %1$d item(s) to cart!</string>
+
+
+    <string name="lorem_ipsum">
+    Welcome to AR Dresser! Browse our collection and find your perfect style.
+</string>
+
+    <string name="default_web_client_id">1077838677508-r0d6ipffv7q16p4rk7oq6kuq8m8ro7sp.apps.googleusercontent.com</string>
+
+
+</resources>

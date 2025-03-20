@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF7F7FF">
+
+    <!-- Edit Profile Title -->
+    <TextView
+        android:id="@+id/editProfileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/profile_user_svgrepo_com"
+        android:contentDescription="Profile Picture"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circular_border" />
+
+    <!-- Change Profile Picture Button (Smaller Size) -->
+    <Button
+        android:id="@+id/changeProfilePictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/circular_border"
+        android:text="Change Profile Picture"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp" />
+
+    <!-- Edit Username -->
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new username"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_edittext"
+        />
+
+    <!-- Edit Email -->
+    <EditText
+        android:id="@+id/editUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new email"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"/>
+
+    <!-- Edit Current Password -->
+    <EditText
+        android:id="@+id/editCurrentPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter current password"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"
+        android:inputType="textPassword"/>
+
+    <!-- Edit New Password -->
+    <EditText
+        android:id="@+id/editNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new password"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"
+        android:inputType="textPassword"/>
+
+    <!-- Confirm New Password -->
+    <EditText
+        android:id="@+id/editConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm new password"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_edittext"
+        android:inputType="textPassword"/>
+
+    <!-- Save Changes Button -->
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/circular_border"
+        android:text="Save Changes"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"/>
+</LinearLayout>

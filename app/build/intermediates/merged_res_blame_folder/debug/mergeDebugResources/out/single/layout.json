@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_customer_support.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_customer_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_list_row.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_item_details.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_item_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_notification.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_order_summary.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_order_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_admin_product_details.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_account.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_view_reports.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_view_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.fyp.app-mergeDebugResources-84:/layout/activity_artry_on.xml",
+        "source": "com.example.fyp.app-main-87:/layout/activity_artry_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_chat_message.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_chat_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_manage_inventory.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_manage_inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_artry_on.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_artry_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_chats.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\drawer_header.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_manage_orders.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_manage_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_add_product.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_manage_users.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_manage_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_cart.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_order.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\dialog_user.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\dialog_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_second2.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_second2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_first2.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_first2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_admin_dashboard.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_cart.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_signin.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_product_details.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_get_started.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_get_started.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_category.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_delivery.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_admin_product_list.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_message.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_edit_product.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_edit_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_product_list.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_product.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_product.xml"
+    }
+]

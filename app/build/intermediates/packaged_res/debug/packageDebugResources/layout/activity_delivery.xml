@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF7F7FF"
+    android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DeliveryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tvDeliveryHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Information"
+            android:textStyle="bold"
+            android:textSize="27sp"
+            android:textColor="@color/purple"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- City Selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select City"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#333333" />
+
+        <Spinner
+            android:id="@+id/spinnerCity"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Input Fields -->
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:background="@drawable/rounded_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:background="@drawable/rounded_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:background="@drawable/rounded_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etPostalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Postal Code"
+            android:background="@drawable/rounded_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:background="@drawable/rounded_input"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="phone"
+            android:maxLength="11" />
+
+        <!-- Payment Method Selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Payment Method"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="#333333" />
+
+        <RadioGroup
+            android:id="@+id/rgPaymentMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/rounded_input">
+
+            <RadioButton
+                android:id="@+id/rbCreditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit Card"
+                android:textSize="14sp"
+                android:padding="6dp" />
+
+            <RadioButton
+                android:id="@+id/rbCashOnDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash on Delivery"
+                android:textSize="14sp"
+                android:padding="6dp" />
+        </RadioGroup>
+
+        <!-- Selected Product Details -->
+        <TextView
+            android:id="@+id/tvSelectedProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_note"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Confirmation Note -->
+        <TextView
+            android:id="@+id/tvConfirmationNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ You will receive a confirmation message on WhatsApp after placing the order."
+            android:textColor="#008000"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_note"
+            android:visibility="gone"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginTop="12dp" />
+
+        <!-- Submit Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Order"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/purple"
+            android:elevation="4dp"
+            android:layout_marginTop="18dp" />
+
+    </LinearLayout>
+</ScrollView>

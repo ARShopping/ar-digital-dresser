@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/getstarbkg"
+    tools:context=".SignUpActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/custom_edittext">
+
+            <TextView
+                android:id="@+id/signUpText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Full Name Input Field -->
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Full Name"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+            <!-- Username Input Field -->
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Username"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+            <!-- Email Input Field -->
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColor="@color/black"/>
+
+            <!-- Password Input Field with Toggle -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/custom_edittext"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:hint="Password"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:textColor="@color/black"
+                    android:drawablePadding="8dp"/>
+
+                <ImageView
+                    android:id="@+id/passwordToggle"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/close_eye_svgrepo_com"
+                    />
+            </RelativeLayout>
+
+            <!-- Confirm Password Input Field with Toggle -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/custom_edittext"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:hint="Confirm Password"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:textColor="@color/black"
+                    android:drawablePadding="8dp"/>
+
+                <ImageView
+                    android:id="@+id/confirmPasswordToggle"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/close_eye_svgrepo_com"/>
+            </RelativeLayout>
+
+            <!-- Sign-Up Button -->
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple"
+                android:text="Sign Up"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                app:cornerRadius="30dp"/>
+
+            <!-- OR Divider -->
+            <TextView
+                android:id="@+id/orDivider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="OR"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+
+            <!-- Google Sign-In Button -->
+            <Button
+                android:id="@+id/googleSignInButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:text="Sign Up with Google"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/icons8_google"
+                android:drawablePadding="8dp"
+                android:background="@drawable/rounded_button"
+                app:cornerRadius="30dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Already have an account? Link -->
+    <TextView
+        android:id="@+id/loginLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Already have an account? Log in"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fyp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.example.fyp.MessageFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.fyp.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart"/>
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.fyp.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+
+    <action
+        android:id="@+id/action_cartFragment_to_homeFragment"
+        app:destination="@id/homeFragment" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.fyp.CartFragment">
+        <action
+            android:id="@+id/action_cartFragment_to_orderSummaryFragment"
+            app:destination="@id/orderSummaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderSummaryFragment"
+        android:name="com.example.fyp.OrderSummaryFragment" />
+
+
+</navigation>

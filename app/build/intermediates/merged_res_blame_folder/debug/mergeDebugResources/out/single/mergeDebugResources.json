@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_delivery.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_loginbkg.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\loginbkg.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie4.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie4.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\menu_cart_selection_menu.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\menu\\cart_selection_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_getstarbkg.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\getstarbkg.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_add_shopping_cart_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_add_shopping_cart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_order.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\order.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_rounded_input.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\rounded_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_chats.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_chats.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_outline.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_add_product.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie5.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie5.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_t_shirt_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\t_shirt_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_jacket_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\jacket_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_edit_product.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_edit_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_manage_inventory.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_manage_inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\menu_cart_action_mode.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\menu\\cart_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_first2.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_first2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_account.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_manage_users.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_manage_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_view_reports.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_view_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_login_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_login_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_message.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_cameraswitch_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_cameraswitch_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_item_details.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_item_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_circular_border_chat.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\circular_border_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_chat_bubble.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\chat_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_clothing_categories.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\clothing_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_order_summary.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_order_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_shopping_cart_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_dialog_user.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\dialog_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\navigation_nav_graph3.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\navigation\\nav_graph3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_circular_border.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\circular_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_get_started.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_get_started.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_downloading_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_downloading_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_artry_on.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_artry_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_inventory.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_inventory.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_product_list.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_reports.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_plus.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_list_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\list_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_placeholder_image.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\placeholder_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_customer_support.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_customer_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_splash_screen.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_second2.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_second2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_orders.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_chat_message.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_chat_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie1.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie1.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_custom_edittext.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\custom_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_img_3.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\img_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_drawer_header.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_list_row.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_manage_orders.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_manage_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\color_light_blue.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\color\\light_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_msg.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\msg.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "com.example.fyp.app-debug-85:/layout_activity_artry_on.xml.flat",
+        "source": "com.example.fyp.app-main-87:/layout/activity_artry_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_signin.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_close_eye_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\close_eye_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_img_4.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\img_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_img.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_minus.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\minus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_empty_cart.jpg.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\empty_cart.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie2.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_open_eye_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\open_eye_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_arrow_back_ios_new_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_arrow_back_ios_new_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_top_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\top_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie6.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie6.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_profile_user_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\profile_user_svgrepo_com.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_speech_bubble_svgrepo_com__2_.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\speech_bubble_svgrepo_com__2_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_message_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_message_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\navigation_nav_menu.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\navigation\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie3.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie3.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_img_5.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\img_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_blinking_dot.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\blinking_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_icons8_google.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\icons8_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_rounded_note.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\rounded_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_ic_users.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\ic_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_admin_product_details.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_product_details.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_product_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\img_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_admin_product_list.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\color_chip_background.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\color\\chip_background.xml"
+    }
+]

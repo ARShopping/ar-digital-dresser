@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "793361919338",
+    "firebase_url": "https://ar-digital-dresser-1cb1e-default-rtdb.firebaseio.com",
+    "project_id": "ar-digital-dresser-1cb1e",
+    "storage_bucket": "ar-digital-dresser-1cb1e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793361919338:android:283db21abfed40acda4913",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793361919338-ev4opsgevs8rjfakef6d9i4kkerh0ftj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fyp",
+            "certificate_hash": "8553ceb3dfaa3e46651ca16539db41f2bf93aae7"
+          }
+        },
+        {
+          "client_id": "793361919338-nf4lbfeknvnhn0u5enfbrfplte4eu3ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd1NZKDMn4iZ5sAWo_NgPWTTO2HhH9mCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793361919338-nf4lbfeknvnhn0u5enfbrfplte4eu3ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

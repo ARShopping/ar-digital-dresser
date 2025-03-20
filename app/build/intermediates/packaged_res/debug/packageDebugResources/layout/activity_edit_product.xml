@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hoodie1"/>
+
+        <!-- Change Image Button -->
+        <Button
+            android:id="@+id/btnChangeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Image"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Product Name -->
+        <EditText
+            android:id="@+id/editProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:textSize="16sp"
+            android:padding="10dp"/>
+
+        <!-- Product Price -->
+        <EditText
+            android:id="@+id/editProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Update Product Button -->
+        <Button
+            android:id="@+id/btnUpdateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Product"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Delete Product Button -->
+        <Button
+            android:id="@+id/btnDeleteProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Product"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

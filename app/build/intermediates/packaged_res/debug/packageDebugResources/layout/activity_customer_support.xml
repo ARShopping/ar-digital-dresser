@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF7F7FF">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/supportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Support"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Contact Info -->
+    <TextView
+        android:id="@+id/supportContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For inquiries, please contact us at: support@example.com"
+        android:textSize="20sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Inquiry Message -->
+    <EditText
+        android:id="@+id/inquiryMessage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Enter your inquiry or message"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_edittext"
+        android:gravity="start|top"/>
+
+    <!-- Send Inquiry Button -->
+    <Button
+        android:id="@+id/sendInquiryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/circular_border"
+        android:text="Send Inquiry"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"/>
+</LinearLayout>

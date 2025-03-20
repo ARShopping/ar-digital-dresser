@@ -1,0 +1,7 @@
+com.example.fyp.test.app-jetified-annotation-experimental-1.4.1-0 C:\Users\Hp\.gradle\caches\8.9\transforms\353e53e4a829647bb20ca25249398ff5\transformed\jetified-annotation-experimental-1.4.1\res
+com.example.fyp.test.app-jetified-core-1.5.0-1 C:\Users\Hp\.gradle\caches\8.9\transforms\9c5c412ebc188f02c83f114e57738226\transformed\jetified-core-1.5.0\res
+com.example.fyp.test.app-jetified-tracing-1.2.0-2 C:\Users\Hp\.gradle\caches\8.9\transforms\ffa2d1e3746c2462f634e1f4a69d9ad4\transformed\jetified-tracing-1.2.0\res
+com.example.fyp.test.app-androidTest-3 E:\fyp\app\build\generated\res\resValues\androidTest\debug
+com.example.fyp.test.app-mergeDebugAndroidTestResources-4 E:\fyp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.fyp.test.app-mergeDebugAndroidTestResources-5 E:\fyp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.fyp.test.app-debugAndroidTest-6 E:\fyp\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

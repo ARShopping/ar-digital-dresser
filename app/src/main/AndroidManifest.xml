@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions for Internet & Camera -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- ARCore Requirements -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.camera.ar" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.P"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ARTryOnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProductListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewReportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageInventoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".ManageUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="true" /> <!-- Firebase Authentication Meta-data -->
+        <meta-data
+            android:name="com.google.firebase.auth.API_KEY"
+            android:value="@string/default_web_client_id" /> <!-- ARCore Meta-data -->
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" /> <!-- Splash Screen / Get Started Activity -->
+        <activity
+            android:name=".GetStarted"
+            android:exported="true"
+            android:theme="@style/Theme.YourAppName">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Main App Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.YourAppName">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- Authentication Activities -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="true"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" /> <!-- AR Try-On Activity -->
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".OrderActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" /> <!-- Customer Support & Chats -->
+        <activity
+            android:name=".CustomerSupportActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".ChatsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" /> <!-- Delivery & Notifications -->
+        <activity
+            android:name=".DeliveryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.YourAppName" />
+    </application>
+
+</manifest>

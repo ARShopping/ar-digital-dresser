@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminProductListActivity">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Empty message when no products exist -->
+    <TextView
+        android:id="@+id/tvNoProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No products available"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>  <!-- Initially hidden -->
+
+    <!-- RecyclerView with Grid Layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeading"
+        android:layout_above="@id/btnAddProduct"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"/>
+
+    <!-- Floating Action Button for Adding Product -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        android:contentDescription="Add Product"
+        app:backgroundTint="@color/purple"
+        app:tint="@android:color/white"/>
+</RelativeLayout>
