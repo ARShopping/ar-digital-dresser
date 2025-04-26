@@ -5,8 +5,9 @@ data class ProductModel(
     val categoryId: String = "",
     val name: String = "",
     val price: String = "",
+    val image: String = "",
     val description: String = "",
-    var modelUrl: String? = null,  // Ensure this exists
-    val image: String = "" // ✅ Ensure this stores Cloudinary URL
+    val timestamp: Long = 0L  // Required for sorting
 )
+
 

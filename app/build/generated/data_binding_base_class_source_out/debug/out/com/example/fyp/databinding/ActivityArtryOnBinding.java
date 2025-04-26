@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.camera.view.PreviewView;
@@ -27,10 +28,16 @@ public final class ActivityArtryOnBinding implements ViewBinding {
   public final FrameLayout arFrameLayout;
 
   @NonNull
+  public final LinearLayout bottomControls;
+
+  @NonNull
   public final Button btnCaptureImage;
 
   @NonNull
   public final Button btnRecordVideo;
+
+  @NonNull
+  public final Button btnResetTransform;
 
   @NonNull
   public final ImageButton btnSwitchCamera;
@@ -48,14 +55,17 @@ public final class ActivityArtryOnBinding implements ViewBinding {
   public final ImageView recordingIndicator;
 
   private ActivityArtryOnBinding(@NonNull FrameLayout rootView, @NonNull FrameLayout arFrameLayout,
-      @NonNull Button btnCaptureImage, @NonNull Button btnRecordVideo,
+      @NonNull LinearLayout bottomControls, @NonNull Button btnCaptureImage,
+      @NonNull Button btnRecordVideo, @NonNull Button btnResetTransform,
       @NonNull ImageButton btnSwitchCamera, @NonNull ImageView clothingOverlay,
       @NonNull OverlayView overlayView, @NonNull PreviewView previewView,
       @NonNull ImageView recordingIndicator) {
     this.rootView = rootView;
     this.arFrameLayout = arFrameLayout;
+    this.bottomControls = bottomControls;
     this.btnCaptureImage = btnCaptureImage;
     this.btnRecordVideo = btnRecordVideo;
+    this.btnResetTransform = btnResetTransform;
     this.btnSwitchCamera = btnSwitchCamera;
     this.clothingOverlay = clothingOverlay;
     this.overlayView = overlayView;
@@ -92,6 +102,12 @@ public final class ActivityArtryOnBinding implements ViewBinding {
     missingId: {
       FrameLayout arFrameLayout = (FrameLayout) rootView;
 
+      id = R.id.bottomControls;
+      LinearLayout bottomControls = ViewBindings.findChildViewById(rootView, id);
+      if (bottomControls == null) {
+        break missingId;
+      }
+
       id = R.id.btnCaptureImage;
       Button btnCaptureImage = ViewBindings.findChildViewById(rootView, id);
       if (btnCaptureImage == null) {
@@ -101,6 +117,12 @@ public final class ActivityArtryOnBinding implements ViewBinding {
       id = R.id.btnRecordVideo;
       Button btnRecordVideo = ViewBindings.findChildViewById(rootView, id);
       if (btnRecordVideo == null) {
+        break missingId;
+      }
+
+      id = R.id.btnResetTransform;
+      Button btnResetTransform = ViewBindings.findChildViewById(rootView, id);
+      if (btnResetTransform == null) {
         break missingId;
       }
 
@@ -134,9 +156,9 @@ public final class ActivityArtryOnBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityArtryOnBinding((FrameLayout) rootView, arFrameLayout, btnCaptureImage,
-          btnRecordVideo, btnSwitchCamera, clothingOverlay, overlayView, previewView,
-          recordingIndicator);
+      return new ActivityArtryOnBinding((FrameLayout) rootView, arFrameLayout, bottomControls,
+          btnCaptureImage, btnRecordVideo, btnResetTransform, btnSwitchCamera, clothingOverlay,
+          overlayView, previewView, recordingIndicator);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

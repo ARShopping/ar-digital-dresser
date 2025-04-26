@@ -88,14 +88,21 @@ dependencies {
     // ✅ ML Kit Selfie Segmentation (latest beta)
     implementation("com.google.mlkit:segmentation-selfie:16.0.0-beta4")
 
-// ✅ ML Kit Pose Detection
+    // ✅ ML Kit Pose Detection
     implementation("com.google.mlkit:pose-detection:18.0.0-beta3")
     implementation("com.google.mlkit:pose-detection-accurate:18.0.0-beta3")
+    implementation ("com.google.mlkit:object-detection:16.2.8")
 
+
+    // For depth processing
+    implementation ("org.tensorflow:tensorflow-lite:2.8.0")
+    implementation ("org.tensorflow:tensorflow-lite-gpu:2.8.0")
 
     // ✅ ARCore (Augmented Reality)
     implementation("com.google.ar:core:1.40.0")
     implementation("com.google.ar.sceneform.ux:sceneform-ux:1.17.1")
+    implementation ("com.google.ar.sceneform:core:1.17.1")
+    //implementation("io.github.sceneview:sceneview:1.20.0")
 
     // ✅ Splash Screen API
     implementation("androidx.core:core-splashscreen:1.0.1")
@@ -108,5 +115,14 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation ("com.google.code.gson:gson:2.10.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.9.0")
+
 }
+
+
+
 

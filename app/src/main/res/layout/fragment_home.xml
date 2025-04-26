@@ -6,78 +6,153 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp">
+        android:fillViewport="true">
 
-        <!-- Search Bar -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardSearch"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            app:cardCornerRadius="25dp"
-            app:cardElevation="5dp">
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp">
 
-            <LinearLayout
+            <!-- 👋 Greeting -->
+            <TextView
+                android:id="@+id/tvGreeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello there!"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- 🔍 Search Bar -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSearch"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:orientation="horizontal"
-                android:padding="10dp"
-                android:gravity="center_vertical">
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="5dp">
 
-                <!-- Search Icon -->
-                <ImageView
-                    android:id="@+id/searchIcon"
-                    android:layout_width="34dp"
-                    android:layout_height="34dp"
-                    android:paddingEnd="10dp"
-                    android:src="@drawable/baseline_search_24" />
-
-                <!-- Search Input Field -->
-                <EditText
-                    android:id="@+id/etSearch"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:background="@null"
-                    android:hint="Search for clothes..."
-                    android:padding="2dp"
-                    android:textSize="16sp" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:gravity="center_vertical">
 
-        <!-- Virtual Try-On Image Section -->
-        <ImageView
-            android:id="@+id/imgVirtualTryOn"
-            android:layout_width="match_parent"
-            android:layout_height="255dp"
-            android:layout_margin="0dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/img" />
+                    <ImageView
+                        android:id="@+id/searchIcon"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:paddingEnd="10dp"
+                        android:src="@drawable/baseline_search_24" />
 
-        <!-- Recommended Section -->
-        <TextView
-            android:id="@+id/tvRecommendedHeader"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="3dp"
-            android:text="Recommended For You"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+                    <AutoCompleteTextView
+                        android:id="@+id/etSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="Search for products..."
+                        android:padding="2dp"
+                        android:textSize="16sp"
+                        android:completionThreshold="1"
+                        android:inputType="text"
+                        android:dropDownHeight="wrap_content"
+                        android:dropDownVerticalOffset="10dp"
+                        android:dropDownHorizontalOffset="10dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewRecommended"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="1dp"
-            android:scrollbars="none"
-            tools:listitem="@layout/item_recommended_clothing"/>
+            <!-- 🧍 Virtual Try-On Image -->
+            <ImageView
+                android:id="@+id/imgVirtualTryOn"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:layout_margin="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
 
-    </LinearLayout>
+            <!-- ✅ Try-On Tips -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardTryOnTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvTryOnTipsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Try-On Tips"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+
+                    <ViewFlipper
+                        android:id="@+id/viewFlipperTips"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:autoStart="true"
+                        android:flipInterval="4000"
+                        android:inAnimation="@android:anim/fade_in"
+                        android:outAnimation="@android:anim/fade_out" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/tvRecommendedTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommended for You"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewRecommended"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:nestedScrollingEnabled="true" />
+
+            <!-- 🔄 Recently Viewed -->
+            <TextView
+                android:id="@+id/tvRecentlyViewedHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="Recently Viewed"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerRecentlyViewed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:scrollbars="none"
+                tools:listitem="@layout/item_recentlyviewed_clothing"/>
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

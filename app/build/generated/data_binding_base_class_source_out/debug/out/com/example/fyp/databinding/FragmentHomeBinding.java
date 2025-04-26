@@ -4,10 +4,11 @@ package com.example.fyp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
+import android.widget.AutoCompleteTextView;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ViewFlipper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -27,10 +28,16 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final CardView cardSearch;
 
   @NonNull
-  public final EditText etSearch;
+  public final CardView cardTryOnTips;
+
+  @NonNull
+  public final AutoCompleteTextView etSearch;
 
   @NonNull
   public final ImageView imgVirtualTryOn;
+
+  @NonNull
+  public final RecyclerView recyclerRecentlyViewed;
 
   @NonNull
   public final RecyclerView recyclerViewRecommended;
@@ -39,19 +46,40 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView searchIcon;
 
   @NonNull
-  public final TextView tvRecommendedHeader;
+  public final TextView tvGreeting;
+
+  @NonNull
+  public final TextView tvRecentlyViewedHeader;
+
+  @NonNull
+  public final TextView tvRecommendedTitle;
+
+  @NonNull
+  public final TextView tvTryOnTipsTitle;
+
+  @NonNull
+  public final ViewFlipper viewFlipperTips;
 
   private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull CardView cardSearch,
-      @NonNull EditText etSearch, @NonNull ImageView imgVirtualTryOn,
+      @NonNull CardView cardTryOnTips, @NonNull AutoCompleteTextView etSearch,
+      @NonNull ImageView imgVirtualTryOn, @NonNull RecyclerView recyclerRecentlyViewed,
       @NonNull RecyclerView recyclerViewRecommended, @NonNull ImageView searchIcon,
-      @NonNull TextView tvRecommendedHeader) {
+      @NonNull TextView tvGreeting, @NonNull TextView tvRecentlyViewedHeader,
+      @NonNull TextView tvRecommendedTitle, @NonNull TextView tvTryOnTipsTitle,
+      @NonNull ViewFlipper viewFlipperTips) {
     this.rootView = rootView;
     this.cardSearch = cardSearch;
+    this.cardTryOnTips = cardTryOnTips;
     this.etSearch = etSearch;
     this.imgVirtualTryOn = imgVirtualTryOn;
+    this.recyclerRecentlyViewed = recyclerRecentlyViewed;
     this.recyclerViewRecommended = recyclerViewRecommended;
     this.searchIcon = searchIcon;
-    this.tvRecommendedHeader = tvRecommendedHeader;
+    this.tvGreeting = tvGreeting;
+    this.tvRecentlyViewedHeader = tvRecentlyViewedHeader;
+    this.tvRecommendedTitle = tvRecommendedTitle;
+    this.tvTryOnTipsTitle = tvTryOnTipsTitle;
+    this.viewFlipperTips = viewFlipperTips;
   }
 
   @Override
@@ -87,8 +115,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cardTryOnTips;
+      CardView cardTryOnTips = ViewBindings.findChildViewById(rootView, id);
+      if (cardTryOnTips == null) {
+        break missingId;
+      }
+
       id = R.id.etSearch;
-      EditText etSearch = ViewBindings.findChildViewById(rootView, id);
+      AutoCompleteTextView etSearch = ViewBindings.findChildViewById(rootView, id);
       if (etSearch == null) {
         break missingId;
       }
@@ -96,6 +130,12 @@ public final class FragmentHomeBinding implements ViewBinding {
       id = R.id.imgVirtualTryOn;
       ImageView imgVirtualTryOn = ViewBindings.findChildViewById(rootView, id);
       if (imgVirtualTryOn == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerRecentlyViewed;
+      RecyclerView recyclerRecentlyViewed = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerRecentlyViewed == null) {
         break missingId;
       }
 
@@ -111,14 +151,39 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvRecommendedHeader;
-      TextView tvRecommendedHeader = ViewBindings.findChildViewById(rootView, id);
-      if (tvRecommendedHeader == null) {
+      id = R.id.tvGreeting;
+      TextView tvGreeting = ViewBindings.findChildViewById(rootView, id);
+      if (tvGreeting == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, cardSearch, etSearch, imgVirtualTryOn,
-          recyclerViewRecommended, searchIcon, tvRecommendedHeader);
+      id = R.id.tvRecentlyViewedHeader;
+      TextView tvRecentlyViewedHeader = ViewBindings.findChildViewById(rootView, id);
+      if (tvRecentlyViewedHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.tvRecommendedTitle;
+      TextView tvRecommendedTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvRecommendedTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.tvTryOnTipsTitle;
+      TextView tvTryOnTipsTitle = ViewBindings.findChildViewById(rootView, id);
+      if (tvTryOnTipsTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.viewFlipperTips;
+      ViewFlipper viewFlipperTips = ViewBindings.findChildViewById(rootView, id);
+      if (viewFlipperTips == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((FrameLayout) rootView, cardSearch, cardTryOnTips, etSearch,
+          imgVirtualTryOn, recyclerRecentlyViewed, recyclerViewRecommended, searchIcon, tvGreeting,
+          tvRecentlyViewedHeader, tvRecommendedTitle, tvTryOnTipsTitle, viewFlipperTips);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

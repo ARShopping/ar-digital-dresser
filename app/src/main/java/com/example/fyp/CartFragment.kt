@@ -27,7 +27,7 @@ class CartFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
+    ): View? {
         val view = inflater.inflate(R.layout.fragment_cart, container, false)
 
         recyclerViewCart = view.findViewById(R.id.recyclerViewCart)
@@ -35,90 +35,85 @@ class CartFragment : Fragment() {
         startShoppingButton = view.findViewById(R.id.buttonStartShopping)
         placeOrderButton = view.findViewById(R.id.buttonPlaceOrder)
 
-        // Set up RecyclerView and Adapter
         setupRecyclerView()
 
-        // Observe Cart items in the ViewModel
         cartViewModel.cartItems.observe(viewLifecycleOwner) { cartItems ->
             updateUI(cartItems)
+            placeOrderButton.isEnabled = cartItems.isNotEmpty()
         }
 
-        // Start shopping button navigation
         startShoppingButton.setOnClickListener {
-            if (isAdded) {
-                findNavController().navigate(R.id.action_cartFragment_to_homeFragment)
-            }
+            findNavController().navigate(R.id.action_cartFragment_to_homeFragment)
         }
 
-        // Place order button navigation
         placeOrderButton.setOnClickListener {
-            findNavController().navigate(R.id.action_cartFragment_to_orderSummaryFragment)
+            if (cartViewModel.cartItems.value?.isNotEmpty() == true) {
+                findNavController().navigate(R.id.action_cartFragment_to_orderSummaryFragment)
+            }
         }
 
         return view
     }
 
     private fun setupRecyclerView() {
-        // Set up the layout manager and the adapter for RecyclerView
         recyclerViewCart.layoutManager = GridLayoutManager(requireContext(), 2)
         cartAdapter = CartAdapter(
             emptyList(),
-            onRemoveClick = { cartViewModel.removeItems(listOf(it)) },  // Fixed function call
-            onQuantityChange = { item, newQuantity -> cartViewModel.updateQuantity(item, newQuantity) },
-            onSelectionChanged = { showToolbar(it) } // Notify when selection changes
+            onRemoveClick = { cartViewModel.removeItems(listOf(it)) },
+            onQuantityChange = { item, newQuantity ->
+                cartViewModel.updateQuantity(item, newQuantity)
+            },
+            onSelectionChanged = { showToolbar(it) }
         )
         recyclerViewCart.adapter = cartAdapter
     }
 
     private fun updateUI(cartItems: List<CartItem>) {
-        // Update the adapter's list of items
         cartAdapter.updateItems(cartItems)
-
-        // Show or hide the empty cart view
-        emptyCartLayout.visibility = if (cartItems.isEmpty()) View.VISIBLE else View.GONE
-        recyclerViewCart.visibility = if (cartItems.isEmpty()) View.GONE else View.VISIBLE
+        val isEmpty = cartItems.isEmpty()
+        emptyCartLayout.visibility = if (isEmpty) View.VISIBLE else View.GONE
+        recyclerViewCart.visibility = if (isEmpty) View.GONE else View.VISIBLE
+        placeOrderButton.isEnabled = !isEmpty
     }
 
     private fun showToolbar(show: Boolean) {
-        // Show or hide the action mode (toolbar) for bulk delete
         if (show) {
             if (actionMode == null) {
                 actionMode = (activity as AppCompatActivity).startSupportActionMode(actionModeCallback)
+                actionMode?.title = "${cartAdapter.getSelectedItems().size} selected"
             }
         } else {
-            actionMode?.finish() // Close the action mode (toolbar) when no items are selected
+            actionMode?.finish()
+            actionMode = null
         }
     }
 
-    // ActionMode callback for handling toolbar actions (delete selected items)
     private val actionModeCallback = object : ActionMode.Callback {
         override fun onCreateActionMode(mode: ActionMode?, menu: Menu?): Boolean {
-            // Inflate the action mode menu (delete option)
             mode?.menuInflater?.inflate(R.menu.cart_action_mode, menu)
             return true
         }
 
         override fun onPrepareActionMode(mode: ActionMode?, menu: Menu?): Boolean {
-            // Prepare action mode (nothing to do in this case)
-            return false
+            mode?.title = "${cartAdapter.getSelectedItems().size} selected"
+            return true
         }
 
         override fun onActionItemClicked(mode: ActionMode?, item: MenuItem?): Boolean {
-            when (item?.itemId) {
+            return when (item?.itemId) {
                 R.id.action_delete -> {
-                    // Handle bulk delete action
                     val selectedItems = cartAdapter.getSelectedItems()
-                    cartViewModel.removeItems(selectedItems)  // Remove selected items
-                    cartAdapter.clearSelection() // Clear selection after deletion
-                    return true
+                    cartViewModel.removeItems(selectedItems)
+                    cartAdapter.clearSelection()
+                    true
                 }
-                else -> return false
+                else -> false
             }
         }
 
         override fun onDestroyActionMode(mode: ActionMode?) {
             actionMode = null
-            cartAdapter.clearSelection() // Clear selection when action mode is destroyed
+            cartAdapter.clearSelection()
         }
     }
 }

@@ -36,8 +36,8 @@
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "com.example.fyp.app-mergeDebugResources-84:/layout/activity_artry_on.xml",
-        "source": "com.example.fyp.app-main-87:/layout/activity_artry_on.xml"
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_recentlyviewed_clothing.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_recentlyviewed_clothing.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_chat_message.xml",
@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_dashboard.xml"
     },
     {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\item_recommended_clothing.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_recommended_clothing.xml"
+    },
+    {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_home.xml",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_home.xml"
     },
@@ -134,6 +138,10 @@
     {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\activity_delivery.xml",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "com.example.fyp.app-mergeDebugResources-84:/layout/fragment_cart.xml",
+        "source": "com.example.fyp.app-main-87:/layout/fragment_cart.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-mergeDebugResources-84:\\layout\\fragment_second.xml",

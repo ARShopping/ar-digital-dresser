@@ -45,20 +45,21 @@ class AdminProductListActivity : AppCompatActivity() {
         database = FirebaseDatabase.getInstance().getReference("products").child(categoryId!!)
 
         recyclerView = findViewById(R.id.recyclerViewProducts)
-        tvNoProducts = findViewById(R.id.tvNoProducts)  // Find the "No products" TextView
+        tvNoProducts = findViewById(R.id.tvNoProducts)
         btnAddProduct = findViewById(R.id.btnAddProduct)
 
         recyclerView.layoutManager = GridLayoutManager(this, 2)
         productList = mutableListOf()
 
         productAdapter = ProductAdapter(productList) { product ->
-            val intent = Intent(this, AdminProductDetailsActivity::class.java)
-            intent.putExtra("productId", product.productId)
-            intent.putExtra("categoryId", categoryId)
-            intent.putExtra("productName", product.name)
-            intent.putExtra("productPrice", product.price)
-            intent.putExtra("productImage", product.image)
-            intent.putExtra("productDescription", product.description)
+            val intent = Intent(this, AdminProductDetailsActivity::class.java).apply {
+                putExtra("productId", product.productId)
+                putExtra("categoryId", categoryId)
+                putExtra("productName", product.name)
+                putExtra("productPrice", product.price)
+                putExtra("productImage", product.image)
+                putExtra("productDescription", product.description)
+            }
             startActivity(intent)
         }
 
@@ -67,9 +68,10 @@ class AdminProductListActivity : AppCompatActivity() {
         loadProducts()
 
         btnAddProduct.setOnClickListener {
-            val intent = Intent(this, AddProductActivity::class.java)
-            intent.putExtra("categoryId", categoryId)
-            intent.putExtra("categoryName", categoryName)
+            val intent = Intent(this, AddProductActivity::class.java).apply {
+                putExtra("categoryId", categoryId)
+                putExtra("categoryName", categoryName)
+            }
             startActivity(intent)
         }
     }
@@ -83,12 +85,15 @@ class AdminProductListActivity : AppCompatActivity() {
                     product?.let { productList.add(it) }
                 }
 
+                // ✅ Sort products by timestamp descending (newest first)
+                productList.sortByDescending { it.timestamp }
+
                 if (productList.isEmpty()) {
-                    tvNoProducts.visibility = View.VISIBLE  // Show "No products available"
-                    recyclerView.visibility = View.GONE  // Hide RecyclerView
+                    tvNoProducts.visibility = View.VISIBLE
+                    recyclerView.visibility = View.GONE
                 } else {
-                    tvNoProducts.visibility = View.GONE  // Hide message
-                    recyclerView.visibility = View.VISIBLE  // Show RecyclerView
+                    tvNoProducts.visibility = View.GONE
+                    recyclerView.visibility = View.VISIBLE
                 }
 
                 productAdapter.notifyDataSetChanged()

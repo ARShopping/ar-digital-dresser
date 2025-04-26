@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-127:12
-INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-127:12
-INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-127:12
-INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-127:12
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-133:12
+INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-133:12
+INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-133:12
+INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:2:1-133:12
 MERGED from [androidx.databinding:databinding-adapters:8.7.3] C:\Users\Hp\.gradle\caches\8.9\transforms\ef926570d983aa70872522066cfffa7d\transformed\databinding-adapters-8.7.3\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.7.3] C:\Users\Hp\.gradle\caches\8.9\transforms\75ee1d83c6eea1d7d63e11d7e6e3b3a6\transformed\jetified-databinding-ktx-8.7.3\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.7.3] C:\Users\Hp\.gradle\caches\8.9\transforms\3424f3c9d1d34feb77bf87683cd3db7a\transformed\databinding-runtime-8.7.3\AndroidManifest.xml:2:1-7:12
@@ -42,6 +42,8 @@ MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Hp\.gradle\caches\8.9\transforms\8e62d4ac4d8a0f7746cd08037a89da10\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\174d080ad031b285c0e9cc85dac81fdc\transformed\jetified-sceneform-ux-1.17.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\a45e5221c7e0876d7016da7b2fb96349\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ee5fefe541bc7d66ffc60edc7377c481\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Hp\.gradle\caches\8.9\transforms\15bc738ed0999d760f4ef789efda20f4\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4888b0dd70a0b05b2295aab5fbba8f8f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:2:1-18:12
@@ -49,6 +51,8 @@ MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] C:\Users\Hp\.gradle\c
 MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\a57bebcdfa6397ff280ea691b823aaac\transformed\jetified-pose-detection-accurate-18.0.0-beta3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Hp\.gradle\caches\8.9\transforms\aac6d57bff13b5bdb297c6657e066895\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.mlkit:object-detection-common:17.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ec46714928af99222a7f5c1b0f12dff3\transformed\jetified-object-detection-common-17.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-analytics:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\e8ac80cbcaf2315edb8a1dafd3175898\transformed\jetified-firebase-analytics-22.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:17:1-39:12
@@ -156,8 +160,11 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hp\.gradle\cache
 MERGED from [androidx.print:print:1.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\befeedb11ba176eb2e5dc2dcf19aa8f2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\bb1a01d91ee3df26ae23fc2f19b7a65e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\84b340219012384ebe7c58ac23b5e9c9\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a2389423ae0db15173a0911dccd83b6\transformed\jetified-tensorflow-lite-2.8.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\784f0539494b57190c7caef36cf93e1c\transformed\jetified-tensorflow-lite-gpu-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Hp\.gradle\caches\8.9\transforms\0d8a9c9928a47178559032cd973807f2\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Hp\.gradle\caches\8.9\transforms\f7948419e8b044b96350fd789f4bba2f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\864e0dbdd638af91a656da7f5802a4dc\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.ar.sceneform:sceneform-base:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\b80f27daabf9bd17b5dd210f64295477\transformed\jetified-sceneform-base-1.17.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\74088f741528d5aa413633921fe2f347\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:fresco:2.6.0] C:\Users\Hp\.gradle\caches\8.9\transforms\e1f97d350e216575a32f77e73446dd1d\transformed\jetified-fresco-2.6.0\AndroidManifest.xml:2:1-9:12
@@ -187,67 +194,95 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Hp\.gradle\cach
 		INJECTED from E:\fyp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.cloudinary:cloudinary-android-core:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4e6ef97989f558cca154cbf22267b5fc\transformed\jetified-cloudinary-android-core-2.0.0\AndroidManifest.xml:9:5-67
-MERGED from [com.cloudinary:cloudinary-android-core:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4e6ef97989f558cca154cbf22267b5fc\transformed\jetified-cloudinary-android-core-2.0.0\AndroidManifest.xml:9:5-67
-MERGED from [com.google.firebase:firebase-auth:23.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a689a236e2377d167e90e938e87ea84\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-auth:23.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a689a236e2377d167e90e938e87ea84\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:8:5-67
-MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\1ccd6e667738561ee0c1814a5c7c8b25\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\1ccd6e667738561ee0c1814a5c7c8b25\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-firestore:25.1.2] C:\Users\Hp\.gradle\caches\8.9\transforms\893a8d6ba6fb191c3f97762abdd5841e\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-firestore:25.1.2] C:\Users\Hp\.gradle\caches\8.9\transforms\893a8d6ba6fb191c3f97762abdd5841e\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Hp\.gradle\caches\8.9\transforms\c66e115900e4e04b10bf07087c98b7b1\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Hp\.gradle\caches\8.9\transforms\c66e115900e4e04b10bf07087c98b7b1\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\c0ca5e78de6aa0bf505ec8e52e2278f6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\c0ca5e78de6aa0bf505ec8e52e2278f6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\d62c07eb6fccbe0e13b3df6f602898d4\transformed\jetified-play-services-measurement-impl-22.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\d62c07eb6fccbe0e13b3df6f602898d4\transformed\jetified-play-services-measurement-impl-22.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\59c9e50eec3673af397fafd8e14bfc99\transformed\jetified-play-services-measurement-sdk-api-22.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\59c9e50eec3673af397fafd8e14bfc99\transformed\jetified-play-services-measurement-sdk-api-22.3.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Hp\.gradle\caches\8.9\transforms\1d11f61182fe34d47ba087969962a43a\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Hp\.gradle\caches\8.9\transforms\1d11f61182fe34d47ba087969962a43a\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hp\.gradle\caches\8.9\transforms\199fe33d652c0580f444d2e73202d0c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hp\.gradle\caches\8.9\transforms\199fe33d652c0580f444d2e73202d0c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:5:5-70
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:5:22-64
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:6:5-80
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:5:19-67
+uses-feature#android.hardware.camera.front
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:6:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:7:5-8:38
-	android:maxSdkVersion
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:6:19-63
+uses-feature#android.hardware.camera.any
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:7:5-64
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:7:22-78
-uses-permission#android.permission.CAMERA
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:9:5-65
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:9:22-62
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:10:5-71
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:10:22-68
-uses-feature#android.hardware.camera.ar
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:11:5-63
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:11:19-60
-uses-feature#android.hardware.camera
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:12:5-14:35
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:7:19-61
+uses-feature#0x00030000
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:8:5-78
+	android:glEsVersion
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:8:19-51
 	android:required
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:14:9-32
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:8:52-75
+uses-permission#android.permission.INTERNET
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.cloudinary:cloudinary-android-core:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4e6ef97989f558cca154cbf22267b5fc\transformed\jetified-cloudinary-android-core-2.0.0\AndroidManifest.xml:9:5-67
+MERGED from [com.cloudinary:cloudinary-android-core:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4e6ef97989f558cca154cbf22267b5fc\transformed\jetified-cloudinary-android-core-2.0.0\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:23.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a689a236e2377d167e90e938e87ea84\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a689a236e2377d167e90e938e87ea84\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\1ccd6e667738561ee0c1814a5c7c8b25\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\1ccd6e667738561ee0c1814a5c7c8b25\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.2] C:\Users\Hp\.gradle\caches\8.9\transforms\893a8d6ba6fb191c3f97762abdd5841e\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.2] C:\Users\Hp\.gradle\caches\8.9\transforms\893a8d6ba6fb191c3f97762abdd5841e\transformed\jetified-firebase-firestore-25.1.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Hp\.gradle\caches\8.9\transforms\c66e115900e4e04b10bf07087c98b7b1\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\Hp\.gradle\caches\8.9\transforms\c66e115900e4e04b10bf07087c98b7b1\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\c0ca5e78de6aa0bf505ec8e52e2278f6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\c0ca5e78de6aa0bf505ec8e52e2278f6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\d62c07eb6fccbe0e13b3df6f602898d4\transformed\jetified-play-services-measurement-impl-22.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\d62c07eb6fccbe0e13b3df6f602898d4\transformed\jetified-play-services-measurement-impl-22.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\59c9e50eec3673af397fafd8e14bfc99\transformed\jetified-play-services-measurement-sdk-api-22.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\59c9e50eec3673af397fafd8e14bfc99\transformed\jetified-play-services-measurement-sdk-api-22.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Hp\.gradle\caches\8.9\transforms\1d11f61182fe34d47ba087969962a43a\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\Hp\.gradle\caches\8.9\transforms\1d11f61182fe34d47ba087969962a43a\transformed\jetified-recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hp\.gradle\caches\8.9\transforms\199fe33d652c0580f444d2e73202d0c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Hp\.gradle\caches\8.9\transforms\199fe33d652c0580f444d2e73202d0c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:11:5-12:38
+	android:maxSdkVersion
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:14:22-68
+uses-feature#android.hardware.camera.ar
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:15:5-63
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:15:19-60
+uses-feature#android.hardware.camera
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:16:5-18:35
+	android:required
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:17:9-47
+meta-data#com.google.ar.core
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:19:5-21:36
+	android:value
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:20:9-42
 application
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:16:5-125:19
-INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:16:5-125:19
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:22:5-131:19
+INJECTED from E:\fyp\app\src\main\AndroidManifest.xml:22:5-131:19
 MERGED from [com.cloudinary:cloudinary-android-ui:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\39ef53cecf1cbdc5f12f016fd8d1dc71\transformed\jetified-cloudinary-android-ui-2.0.0\AndroidManifest.xml:9:5-14:19
 MERGED from [com.cloudinary:cloudinary-android-ui:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\39ef53cecf1cbdc5f12f016fd8d1dc71\transformed\jetified-cloudinary-android-ui-2.0.0\AndroidManifest.xml:9:5-14:19
 MERGED from [com.cloudinary:cloudinary-android-core:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4e6ef97989f558cca154cbf22267b5fc\transformed\jetified-cloudinary-android-core-2.0.0\AndroidManifest.xml:11:5-67
@@ -272,6 +307,10 @@ MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Hp\.gradle\caches\8.9\transforms\5e407195748ce788af10755e4b1fc66f\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Hp\.gradle\caches\8.9\transforms\8e62d4ac4d8a0f7746cd08037a89da10\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Hp\.gradle\caches\8.9\transforms\8e62d4ac4d8a0f7746cd08037a89da10\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:10:5-18:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ee5fefe541bc7d66ffc60edc7377c481\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ee5fefe541bc7d66ffc60edc7377c481\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\b201dded4b46f9cb4df22bec31877c07\transformed\jetified-pose-detection-18.0.0-beta3\AndroidManifest.xml:7:5-20
@@ -280,6 +319,8 @@ MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] C:\Users\Hp\
 MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\a57bebcdfa6397ff280ea691b823aaac\transformed\jetified-pose-detection-accurate-18.0.0-beta3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:10:5-33:19
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-analytics:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\e8ac80cbcaf2315edb8a1dafd3175898\transformed\jetified-firebase-analytics-22.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\e8ac80cbcaf2315edb8a1dafd3175898\transformed\jetified-firebase-analytics-22.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:28:5-44:19
@@ -368,8 +409,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hp
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hp\.gradle\caches\8.9\transforms\1d7216f38380bd4be4d2b3d33b7da6d5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Hp\.gradle\caches\8.9\transforms\6819c62aebc39d9b4542edaea2a4b72a\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Hp\.gradle\caches\8.9\transforms\6819c62aebc39d9b4542edaea2a4b72a\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [org.tensorflow:tensorflow-lite:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a2389423ae0db15173a0911dccd83b6\transformed\jetified-tensorflow-lite-2.8.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a2389423ae0db15173a0911dccd83b6\transformed\jetified-tensorflow-lite-2.8.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\784f0539494b57190c7caef36cf93e1c\transformed\jetified-tensorflow-lite-gpu-2.8.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\784f0539494b57190c7caef36cf93e1c\transformed\jetified-tensorflow-lite-gpu-2.8.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Hp\.gradle\caches\8.9\transforms\f7948419e8b044b96350fd789f4bba2f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Hp\.gradle\caches\8.9\transforms\f7948419e8b044b96350fd789f4bba2f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\864e0dbdd638af91a656da7f5802a4dc\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\864e0dbdd638af91a656da7f5802a4dc\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:10:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Hp\.gradle\caches\8.9\transforms\62b17461c057373e05658e7a1019fc13\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\Hp\.gradle\caches\8.9\transforms\62b17461c057373e05658e7a1019fc13\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Hp\.gradle\caches\8.9\transforms\f0dbb9dbada2d3a316f2254aa9efc585\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:11:5-19:19
@@ -379,219 +426,213 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Hp\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ca98f65e291b3f68858b4b7cb816c587\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:27:9-35
 	android:label
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:25:9-41
 	android:fullBackupContent
 		ADDED from [com.cloudinary:cloudinary-android-core:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4e6ef97989f558cca154cbf22267b5fc\transformed\jetified-cloudinary-android-core-2.0.0\AndroidManifest.xml:11:18-64
 	tools:ignore
 		ADDED from [com.evernote:android-job:1.4.2] C:\Users\Hp\.gradle\caches\8.9\transforms\f1038e20a015e8f8b1b8877bfb4c93b7\transformed\jetified-android-job-1.4.2\AndroidManifest.xml:16:18-44
 	android:roundIcon
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:20:9-54
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:26:9-54
 	tools:targetApi
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:23:9-29
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:29:9-29
 	android:icon
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:18:9-38
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:24:9-38
 	android:allowBackup
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:23:9-35
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:22:9-39
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:28:9-39
 activity#com.example.fyp.ARTryOnActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:25:9-27:40
-	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:26:13-44
-activity#com.example.fyp.AdminProductDetailsActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:28:9-30:40
-	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:29:13-56
-activity#com.example.fyp.AddProductActivity
 ADDED from E:\fyp\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:32:13-47
-activity#com.example.fyp.EditProductActivity
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:32:13-44
+activity#com.example.fyp.AdminProductDetailsActivity
 ADDED from E:\fyp\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:35:13-48
-activity#com.example.fyp.AdminProductListActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:37:9-40:56
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:35:13-56
+activity#com.example.fyp.AddProductActivity
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:38:13-47
+activity#com.example.fyp.EditProductActivity
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:41:13-48
+activity#com.example.fyp.AdminProductListActivity
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:43:9-46:56
+	android:exported
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:45:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:40:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:46:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:38:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:44:13-53
 activity#com.example.fyp.ProductDetailsActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:41:9-43:40
-	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:42:13-51
-activity#com.example.fyp.ProductListActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:44:9-46:40
-	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:45:13-48
-activity#com.example.fyp.ViewReportsActivity
 ADDED from E:\fyp\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:48:13-48
-activity#com.example.fyp.ManageOrdersActivity
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:48:13-51
+activity#com.example.fyp.ProductListActivity
 ADDED from E:\fyp\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:51:13-49
-activity#com.example.fyp.ManageInventoryActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:53:9-56:56
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:51:13-48
+activity#com.example.fyp.ViewReportsActivity
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:55:13-37
-	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:56:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:54:13-52
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:54:13-48
+activity#com.example.fyp.ManageOrdersActivity
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:56:9-58:40
+	android:exported
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:57:13-49
+activity#com.example.fyp.ManageInventoryActivity
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:59:9-62:56
+	android:exported
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:61:13-37
+	android:theme
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:62:13-53
+	android:name
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:60:13-52
 activity#com.example.fyp.ManageUsersActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:57:9-59:40
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:63:9-65:40
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:59:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:58:13-48
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:64:13-48
 activity#com.example.fyp.AdminDashboardActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:60:9-62:39
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:66:9-68:39
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:62:13-36
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:61:13-51
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:67:13-51
 meta-data#com.google.firebase.auth.API_KEY
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:63:9-65:61
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:69:9-71:61
 	android:value
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:65:13-58
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:71:13-58
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:64:13-60
-meta-data#com.google.ar.core
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:66:9-68:40
-	android:value
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:68:13-37
-	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:67:13-46
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:70:13-60
 activity#com.example.fyp.GetStarted
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:69:9-78:20
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:75:9-84:20
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:71:13-36
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:77:13-36
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:72:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:78:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:70:13-39
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:76:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:73:13-77:29
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:79:13-83:29
 action#android.intent.action.MAIN
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:74:17-69
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:80:17-69
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:74:25-66
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:80:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:76:17-77
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:82:17-77
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:76:27-74
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:82:27-74
 activity#com.example.fyp.MainActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:79:9-88:20
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:85:9-94:20
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:81:13-36
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:87:13-36
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:82:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:88:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:80:13-41
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:86:13-41
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:83:13-87:29
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:89:13-93:29
 action#android.intent.action.VIEW
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:84:17-69
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:90:17-69
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:84:25-66
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:90:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:86:17-76
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:92:17-76
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:86:27-73
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:92:27-73
 activity#com.example.fyp.SignUpActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:89:9-92:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:95:9-98:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:91:13-36
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:97:13-36
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:92:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:98:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:90:13-43
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:96:13-43
 activity#com.example.fyp.SigninActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:93:9-96:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:99:9-102:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:95:13-36
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:101:13-36
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:96:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:102:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:94:13-43
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:100:13-43
 activity#com.example.fyp.ForgotPasswordActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:97:9-100:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:103:9-106:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:99:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:105:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:100:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:106:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:98:13-51
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:104:13-51
 activity#com.example.fyp.EditProfileActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:101:9-104:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:107:9-110:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:103:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:109:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:104:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:110:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:102:13-48
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:108:13-48
 activity#com.example.fyp.OrderActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:105:9-108:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:111:9-114:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:107:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:113:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:108:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:114:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:106:13-42
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:112:13-42
 activity#com.example.fyp.CustomerSupportActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:109:9-112:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:115:9-118:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:111:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:117:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:112:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:118:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:110:13-52
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:116:13-52
 activity#com.example.fyp.ChatsActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:113:9-116:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:119:9-122:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:115:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:121:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:116:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:122:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:114:13-42
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:120:13-42
 activity#com.example.fyp.DeliveryActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:117:9-120:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:123:9-126:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:119:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:125:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:120:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:126:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:118:13-45
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:124:13-45
 activity#com.example.fyp.NotificationActivity
-ADDED from E:\fyp\app\src\main\AndroidManifest.xml:121:9-124:56
+ADDED from E:\fyp\app\src\main\AndroidManifest.xml:127:9-130:56
 	android:exported
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:123:13-37
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:129:13-37
 	android:theme
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:124:13-53
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:130:13-53
 	android:name
-		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:122:13-49
+		ADDED from E:\fyp\app\src\main\AndroidManifest.xml:128:13-49
 uses-sdk
 INJECTED from E:\fyp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\fyp\app\src\main\AndroidManifest.xml
@@ -672,6 +713,10 @@ MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.17.1] C:\Users\Hp\.gradle
 MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\174d080ad031b285c0e9cc85dac81fdc\transformed\jetified-sceneform-ux-1.17.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\a45e5221c7e0876d7016da7b2fb96349\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\a45e5221c7e0876d7016da7b2fb96349\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ee5fefe541bc7d66ffc60edc7377c481\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ee5fefe541bc7d66ffc60edc7377c481\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Hp\.gradle\caches\8.9\transforms\15bc738ed0999d760f4ef789efda20f4\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Hp\.gradle\caches\8.9\transforms\15bc738ed0999d760f4ef789efda20f4\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\4888b0dd70a0b05b2295aab5fbba8f8f\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
@@ -686,6 +731,10 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Hp\
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Hp\.gradle\caches\8.9\transforms\aac6d57bff13b5bdb297c6657e066895\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:17.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ec46714928af99222a7f5c1b0f12dff3\transformed\jetified-object-detection-common-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:17.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\ec46714928af99222a7f5c1b0f12dff3\transformed\jetified-object-detection-common-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\e8ac80cbcaf2315edb8a1dafd3175898\transformed\jetified-firebase-analytics-22.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\e8ac80cbcaf2315edb8a1dafd3175898\transformed\jetified-firebase-analytics-22.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:20:5-44
@@ -900,10 +949,16 @@ MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Hp\.gradle\caches\
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\bb1a01d91ee3df26ae23fc2f19b7a65e\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\84b340219012384ebe7c58ac23b5e9c9\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\Hp\.gradle\caches\8.9\transforms\84b340219012384ebe7c58ac23b5e9c9\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a2389423ae0db15173a0911dccd83b6\transformed\jetified-tensorflow-lite-2.8.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a2389423ae0db15173a0911dccd83b6\transformed\jetified-tensorflow-lite-2.8.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\784f0539494b57190c7caef36cf93e1c\transformed\jetified-tensorflow-lite-gpu-2.8.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\784f0539494b57190c7caef36cf93e1c\transformed\jetified-tensorflow-lite-gpu-2.8.0\AndroidManifest.xml:7:5-8:41
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Hp\.gradle\caches\8.9\transforms\0d8a9c9928a47178559032cd973807f2\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\Hp\.gradle\caches\8.9\transforms\0d8a9c9928a47178559032cd973807f2\transformed\jetified-grpc-android-1.62.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Hp\.gradle\caches\8.9\transforms\f7948419e8b044b96350fd789f4bba2f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Hp\.gradle\caches\8.9\transforms\f7948419e8b044b96350fd789f4bba2f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\864e0dbdd638af91a656da7f5802a4dc\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Hp\.gradle\caches\8.9\transforms\864e0dbdd638af91a656da7f5802a4dc\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:7:5-8:41
 MERGED from [com.google.ar.sceneform:sceneform-base:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\b80f27daabf9bd17b5dd210f64295477\transformed\jetified-sceneform-base-1.17.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.ar.sceneform:sceneform-base:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\b80f27daabf9bd17b5dd210f64295477\transformed\jetified-sceneform-base-1.17.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.ar.sceneform:filament-android:1.17.1] C:\Users\Hp\.gradle\caches\8.9\transforms\74088f741528d5aa413633921fe2f347\transformed\jetified-filament-android-1.17.1\AndroidManifest.xml:7:5-9:41
@@ -948,6 +1003,9 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Hp\.gradle\cach
 		INJECTED from E:\fyp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from E:\fyp\app\src\main\AndroidManifest.xml
+		MERGED from E:\fyp\app\src\main\AndroidManifest.xml
+		MERGED from E:\fyp\app\src\main\AndroidManifest.xml
+		MERGED from E:\fyp\app\src\main\AndroidManifest.xml
 activity#com.cloudinary.android.uploadwidget.ui.UploadWidgetActivity
 ADDED from [com.cloudinary:cloudinary-android-ui:2.0.0] C:\Users\Hp\.gradle\caches\8.9\transforms\39ef53cecf1cbdc5f12f016fd8d1dc71\transformed\jetified-cloudinary-android-ui-2.0.0\AndroidManifest.xml:10:9-13:56
 	android:configChanges
@@ -1058,8 +1116,12 @@ ADDED from [com.google.firebase:firebase-auth-ktx:23.2.0] C:\Users\Hp\.gradle\ca
 		ADDED from [com.google.firebase:firebase-auth-ktx:23.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\71188262d29a62dda0ec2f089016043d\transformed\jetified-firebase-auth-ktx-23.2.0\AndroidManifest.xml:12:17-119
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:23.2.0] C:\Users\Hp\.gradle\caches\8.9\transforms\6a689a236e2377d167e90e938e87ea84\transformed\jetified-firebase-auth-23.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:7:5-79
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:7:5-79
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:23:5-79
@@ -1187,21 +1249,31 @@ ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Hp\.gradl
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Hp\.gradle\caches\8.9\transforms\8e62d4ac4d8a0f7746cd08037a89da10\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
 service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
-ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:9:9-15:19
+ADDED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:26:9-32:19
 MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.mlkit:vision-common:17.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\902c11aad087433391730ca02cb693e1\transformed\jetified-vision-common-17.2.1\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.mlkit:vision-common:17.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\902c11aad087433391730ca02cb693e1\transformed\jetified-vision-common-17.2.1\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.mlkit:common:18.5.0] C:\Users\Hp\.gradle\caches\8.9\transforms\44b85f1e6b385e68084bc5dc4ac539ff\transformed\jetified-common-18.5.0\AndroidManifest.xml:15:9-23:19
 MERGED from [com.google.mlkit:common:18.5.0] C:\Users\Hp\.gradle\caches\8.9\transforms\44b85f1e6b385e68084bc5dc4ac539ff\transformed\jetified-common-18.5.0\AndroidManifest.xml:15:9-23:19
 	android:exported
-		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:13:13-37
 	tools:targetApi
 		ADDED from [com.google.mlkit:common:18.5.0] C:\Users\Hp\.gradle\caches\8.9\transforms\44b85f1e6b385e68084bc5dc4ac539ff\transformed\jetified-common-18.5.0\AndroidManifest.xml:19:13-32
 	android:directBootAware
 		ADDED from [com.google.mlkit:common:18.5.0] C:\Users\Hp\.gradle\caches\8.9\transforms\44b85f1e6b385e68084bc5dc4ac539ff\transformed\jetified-common-18.5.0\AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:10:13-91
+		ADDED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:12:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.8] C:\Users\Hp\.gradle\caches\8.9\transforms\408462ba321868de1c4bcb50b057e637\transformed\jetified-object-detection-16.2.8\AndroidManifest.xml:15:17-136
 meta-data#com.google.firebase.components:com.google.mlkit.vision.segmentation.internal.SegmentationRegistrar
 ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] C:\Users\Hp\.gradle\caches\8.9\transforms\9e78f8b7c5546e0d3879545aa20e1cf9\transformed\jetified-segmentation-selfie-16.0.0-beta4\AndroidManifest.xml:12:13-14:85
 	android:value
@@ -1220,6 +1292,12 @@ ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gr
 		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:31:17-82
 	android:name
 		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] C:\Users\Hp\.gradle\caches\8.9\transforms\ddfb9f7648e8b1eeb7274af78db3af40\transformed\jetified-pose-detection-common-18.0.0-beta3\AndroidManifest.xml:30:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.1] C:\Users\Hp\.gradle\caches\8.9\transforms\5b4b69df66d1d58cce3ae0eae2c0272a\transformed\jetified-vision-internal-vkp-18.2.1\AndroidManifest.xml:15:17-103
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\5ef754fca4172e6af52ea5428fbe7a04\transformed\jetified-play-services-measurement-22.3.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:22.3.0] C:\Users\Hp\.gradle\caches\8.9\transforms\67e182663d16fe1ddb8a1440b77cc965\transformed\jetified-play-services-measurement-api-22.3.0\AndroidManifest.xml:24:5-68

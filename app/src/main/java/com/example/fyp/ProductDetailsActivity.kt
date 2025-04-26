@@ -14,7 +14,7 @@ class ProductDetailsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityProductDetailsBinding
     private lateinit var database: DatabaseReference
-    private var selectedSize: String = "S" // Default size
+    private var selectedSize: String = "S"
     private var productId: String? = null
     private var categoryId: String? = null
     private lateinit var cartDatabase: DatabaseReference
@@ -34,28 +34,16 @@ class ProductDetailsActivity : AppCompatActivity() {
             return
         }
 
-        // Initialize Firebase Database References
         database = FirebaseDatabase.getInstance().getReference("products").child(categoryId!!)
         cartDatabase = FirebaseDatabase.getInstance().getReference("cart").child(userId ?: "")
 
-        // Load product details
         loadProductDetails()
 
-        // Set Click Listeners
-        binding.buttonTryOn.setOnClickListener {
-            launchARTryOn()
-        }
-
-        binding.buttonBuyNow.setOnClickListener {
-            handleBuyNow()
-        }
-
-        binding.buttonAddToCart.setOnClickListener {
-            addToCartDirectly()
-        }
+        binding.buttonTryOn.setOnClickListener { launchARTryOn() }
+        binding.buttonBuyNow.setOnClickListener { handleBuyNow() }
+        binding.buttonAddToCart.setOnClickListener { addToCartDirectly() }
     }
 
-    /** 🔹 Load product details from Firebase */
     private fun loadProductDetails() {
         database.child(productId!!).addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
@@ -74,8 +62,6 @@ class ProductDetailsActivity : AppCompatActivity() {
                 binding.textViewProductPrice.text = "PKR $productPrice"
                 binding.textViewProductDescription.text = productDescription
                 Glide.with(applicationContext).load(productImage).into(binding.imageViewProduct)
-
-                // Use productImage as overlay image for AR try-on
                 binding.buttonTryOn.tag = productImage
 
                 val availableSizes = snapshot.child("sizes").children.mapNotNull { it.getValue(String::class.java) }
@@ -88,6 +74,17 @@ class ProductDetailsActivity : AppCompatActivity() {
                     }
                     binding.sizesChipGroup.addView(chip)
                 }
+
+                // 🔸 Save to Recently Viewed
+                val product = ProductModel(
+                    productId = productId!!,
+                    name = productName,
+                    price = productPrice,
+                    image = productImage,
+                    description = productDescription,
+                    categoryId = categoryId!!
+                )
+                RecentlyViewedManager.saveProduct(applicationContext, product)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -96,7 +93,6 @@ class ProductDetailsActivity : AppCompatActivity() {
         })
     }
 
-    /** 🔹 Launch AR Try-On with 2D overlay image */
     private fun launchARTryOn() {
         val imageUrl = binding.buttonTryOn.tag as? String
         if (imageUrl.isNullOrEmpty()) {
@@ -105,14 +101,12 @@ class ProductDetailsActivity : AppCompatActivity() {
         }
 
         val intent = Intent(this, ARTryOnActivity::class.java)
-        intent.putExtra("modelUrl", imageUrl) // ARTryOnActivity expects "modelUrl" as key
+        intent.putExtra("modelUrl", imageUrl)
         startActivity(intent)
     }
 
-    /** 🔹 Handle Buy Now button */
     private fun handleBuyNow() {
         val priceText = binding.textViewProductPrice.text?.toString() ?: ""
-
         if (priceText.isEmpty()) {
             Toast.makeText(this, "Error: Product price not available", Toast.LENGTH_SHORT).show()
             return
@@ -128,7 +122,6 @@ class ProductDetailsActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    /** 🔹 Directly Add to Cart */
     private fun addToCartDirectly() {
         if (userId == null) {
             Toast.makeText(this, "Please login to add items to cart", Toast.LENGTH_SHORT).show()

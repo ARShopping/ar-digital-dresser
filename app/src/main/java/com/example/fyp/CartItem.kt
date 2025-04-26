@@ -1,8 +1,12 @@
 package com.example.fyp
 
 data class CartItem(
-    var productId: String = "",
-    var productName: String = "",
-    var quantity: Int = 1,
-    var price: Double = 0.0 // Added price field for calculations
-)
+    val productId: String? = null,
+    val productName: String = "",
+    val price: Double = 0.0,
+    val quantity: Int = 1,
+    val imageUrl: String? = null
+) {
+    // Add a no-argument constructor for Firebase
+    constructor() : this(null, "", 0.0, 1, null)
+}

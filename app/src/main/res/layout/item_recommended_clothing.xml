@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginEnd="16dp"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <!-- Clothing Image -->
+    <ImageView
+        android:id="@+id/imageViewClothingR"
+        android:layout_width="140dp"
+        android:layout_height="155dp"
+        android:src="@drawable/img_1"
+        android:contentDescription="Clothing Image" />
+
+    <!-- Clothing Name -->
+    <TextView
+        android:id="@+id/textViewClothingNameR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothing Item"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Clothing Price -->
+    <TextView
+        android:id="@+id/textViewClothingPriceR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$29.99"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:layout_marginTop="3dp"/>
+</LinearLayout>

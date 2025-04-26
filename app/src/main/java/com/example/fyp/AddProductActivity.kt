@@ -4,12 +4,24 @@ import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.OpenableColumns
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import okhttp3.MediaType.Companion.toMediaTypeOrNull
+import okhttp3.MultipartBody
+import okhttp3.RequestBody
+import okhttp3.ResponseBody
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import java.io.File
+import java.io.FileOutputStream
 
 class AddProductActivity : AppCompatActivity() {
 
@@ -79,22 +91,51 @@ class AddProductActivity : AppCompatActivity() {
 
         val productId = database.push().key ?: return
 
-        // Upload image to Cloudinary in a coroutine
         lifecycleScope.launch {
-            val cloudinaryUrl = CloudinaryManager.uploadImage(this@AddProductActivity, imageUri!!)
-            if (cloudinaryUrl != null) {
-                val product = ProductModel(
-                    productId = productId,
-                    categoryId = categoryId!!,
-                    name = productName,
-                    price = productPrice,
-                    description = productDescription,
-                    image = cloudinaryUrl // Ensure this stores Cloudinary URL
-                )
-                saveProductToDatabase(product)
-            } else {
-                Toast.makeText(this@AddProductActivity, "Image upload failed", Toast.LENGTH_SHORT).show()
+            val imageFile = createTempFileFromUri(imageUri!!)
+            if (imageFile == null) {
+                Toast.makeText(this@AddProductActivity, "Failed to read image file", Toast.LENGTH_SHORT).show()
+                return@launch
             }
+
+            val requestFile = RequestBody.create("image/*".toMediaTypeOrNull(), imageFile)
+            val multipartBody = MultipartBody.Part.createFormData("image_file", imageFile.name, requestFile)
+
+            RetrofitInstance.service.removeBackground(multipartBody).enqueue(object : Callback<ResponseBody> {
+                override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
+                    if (response.isSuccessful && response.body() != null) {
+                        val removedBgFile = File(cacheDir, "removed-bg-${System.currentTimeMillis()}.png")
+                        response.body()?.byteStream()?.use { input ->
+                            FileOutputStream(removedBgFile).use { output ->
+                                input.copyTo(output)
+                            }
+                        }
+
+                        lifecycleScope.launch {
+                            val cloudinaryUrl = CloudinaryManager.uploadImage(this@AddProductActivity, Uri.fromFile(removedBgFile))
+                            if (cloudinaryUrl != null) {
+                                val product = ProductModel(
+                                    productId = productId,
+                                    categoryId = categoryId!!,
+                                    name = productName,
+                                    price = productPrice,
+                                    description = productDescription,
+                                    image = cloudinaryUrl
+                                )
+                                saveProductToDatabase(product)
+                            } else {
+                                Toast.makeText(this@AddProductActivity, "Cloud upload failed", Toast.LENGTH_SHORT).show()
+                            }
+                        }
+                    } else {
+                        Toast.makeText(this@AddProductActivity, "Background removal failed", Toast.LENGTH_SHORT).show()
+                    }
+                }
+
+                override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
+                    Toast.makeText(this@AddProductActivity, "API call failed: ${t.message}", Toast.LENGTH_SHORT).show()
+                }
+            })
         }
     }
 
@@ -111,6 +152,41 @@ class AddProductActivity : AppCompatActivity() {
 
     private fun isValidPrice(price: String): Boolean {
         return price.toDoubleOrNull() != null && price.toDouble() > 0
+    }
+
+    private suspend fun createTempFileFromUri(uri: Uri): File? = withContext(Dispatchers.IO) {
+        try {
+            val inputStream = contentResolver.openInputStream(uri) ?: return@withContext null
+            val fileName = getFileName(uri) ?: "temp_image"
+            val file = File(cacheDir, fileName)
+            FileOutputStream(file).use { output ->
+                inputStream.copyTo(output)
+            }
+            file
+        } catch (e: Exception) {
+            e.printStackTrace()
+            null
+        }
+    }
+
+    private fun getFileName(uri: Uri): String? {
+        var result: String? = null
+        if (uri.scheme == "content") {
+            val cursor = contentResolver.query(uri, null, null, null, null)
+            cursor?.use {
+                if (it.moveToFirst()) {
+                    result = it.getString(it.getColumnIndexOrThrow(OpenableColumns.DISPLAY_NAME))
+                }
+            }
+        }
+        if (result == null) {
+            result = uri.path
+            val cut = result?.lastIndexOf('/')
+            if (cut != -1) {
+                result = result?.substring(cut!! + 1)
+            }
+        }
+        return result
     }
 
     companion object {

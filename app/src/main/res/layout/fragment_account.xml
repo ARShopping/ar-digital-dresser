@@ -46,7 +46,7 @@
         android:layout_marginTop="32dp"
         android:background="@drawable/circular_border"
         android:text="Edit Profile"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/purple"
         android:textSize="22sp"/>
 
     <!-- Customer Support Button -->
@@ -57,7 +57,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/circular_border"
         android:text="Customer Support"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/purple"
         android:textSize="22sp"/>
 
     <!-- Sign Out Button -->
@@ -68,9 +68,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/circular_border"
         android:text="Sign Out"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/purple"
         android:textSize="25sp"/>
-
-
 
 </LinearLayout>

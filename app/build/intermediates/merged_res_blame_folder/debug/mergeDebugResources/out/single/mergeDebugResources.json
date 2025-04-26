@@ -136,6 +136,10 @@
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\fragment_first2.xml"
     },
     {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_recentlyviewed_clothing.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_recentlyviewed_clothing.xml"
+    },
+    {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_admin_dashboard.xml.flat",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_dashboard.xml"
     },
@@ -352,10 +356,6 @@
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\rounded_button.xml"
     },
     {
-        "merged": "com.example.fyp.app-debug-85:/layout_activity_artry_on.xml.flat",
-        "source": "com.example.fyp.app-main-87:/layout/activity_artry_on.xml"
-    },
-    {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_signin.xml.flat",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_signin.xml"
     },
@@ -460,6 +460,10 @@
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\navigation\\nav_menu.xml"
     },
     {
+        "merged": "com.example.fyp.app-debug-85:/layout_fragment_cart.xml.flat",
+        "source": "com.example.fyp.app-main-87:/layout/fragment_cart.xml"
+    },
+    {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\drawable_hoodie3.png.flat",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\drawable\\hoodie3.png"
     },
@@ -518,6 +522,10 @@
     {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_activity_admin_product_list.xml.flat",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\activity_admin_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_recommended_clothing.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-main-87:\\layout\\item_recommended_clothing.xml"
     },
     {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.9\\com.example.fyp.app-debug-85:\\layout_item_product.xml.flat",

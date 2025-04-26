@@ -3452,6 +3452,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomControls
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3478,6 +3479,7 @@ id btnLogout
 id btnNotification
 id btnOrder
 id btnRecordVideo
+id btnResetTransform
 id btnSaveProduct
 id btnSelectImage
 id btnSend
@@ -3510,6 +3512,7 @@ id cardImage
 id cardNotification
 id cardOrder
 id cardSearch
+id cardTryOnTips
 id carryVelocity
 id cartFragment
 id cartIcon
@@ -3696,7 +3699,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageProduct
 id imageView
+id imageViewClothingR
 id imageViewEmptyCart
 id imageViewItem
 id imageViewProduct
@@ -3888,6 +3893,7 @@ id rbCashOnDelivery
 id rbCreditCard
 id recordingIndicator
 id rectangles
+id recyclerRecentlyViewed
 id recyclerViewCart
 id recyclerViewCategories
 id recyclerViewProducts
@@ -4005,12 +4011,16 @@ id text2
 id textEnd
 id textOrderSummaryTitle
 id textOrderTotal
+id textProductName
+id textProductPrice
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id textView
 id textViewCategoryName
+id textViewClothingNameR
+id textViewClothingPriceR
 id textViewEmptyCart
 id textViewItem
 id textViewItemName
@@ -4052,11 +4062,15 @@ id triangle
 id tvAdminTitle
 id tvConfirmationNote
 id tvDeliveryHeader
+id tvGreeting
 id tvHeading
 id tvMessage
 id tvNoProducts
-id tvRecommendedHeader
+id tvNoResults
+id tvRecentlyViewedHeader
+id tvRecommendedTitle
 id tvSelectedProduct
+id tvTryOnTipsTitle
 id unchecked
 id uniform
 id unlabeled
@@ -4069,6 +4083,7 @@ id userRecyclerView
 id username
 id vertical
 id vertical_only
+id viewFlipperTips
 id viewReportsCard
 id view_offset_helper
 id view_transition
@@ -4271,6 +4286,8 @@ layout item_category
 layout item_chat_message
 layout item_list_row
 layout item_product
+layout item_recentlyviewed_clothing
+layout item_recommended_clothing
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

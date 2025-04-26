@@ -103,6 +103,7 @@ id addUserButton
 id appLogo
 id appTitle
 id arFrameLayout
+id bottomControls
 id btnAddCategory
 id btnAddProduct
 id btnCaptureImage
@@ -120,6 +121,7 @@ id btnLogout
 id btnNotification
 id btnOrder
 id btnRecordVideo
+id btnResetTransform
 id btnSaveProduct
 id btnSelectImage
 id btnSend
@@ -145,6 +147,7 @@ id cardImage
 id cardNotification
 id cardOrder
 id cardSearch
+id cardTryOnTips
 id cartFragment
 id cartIcon
 id cartToolbar
@@ -198,7 +201,9 @@ id freeDeliveryText
 id googleSignInButton
 id gridLayout
 id homeFragment
+id imageProduct
 id imageView
+id imageViewClothingR
 id imageViewEmptyCart
 id imageViewItem
 id imageViewProduct
@@ -241,6 +246,7 @@ id profilePicture
 id rbCashOnDelivery
 id rbCreditCard
 id recordingIndicator
+id recyclerRecentlyViewed
 id recyclerViewCart
 id recyclerViewCategories
 id recyclerViewProducts
@@ -264,8 +270,12 @@ id supportTitle
 id text
 id textOrderSummaryTitle
 id textOrderTotal
+id textProductName
+id textProductPrice
 id textView
 id textViewCategoryName
+id textViewClothingNameR
+id textViewClothingPriceR
 id textViewEmptyCart
 id textViewItem
 id textViewItemName
@@ -280,15 +290,20 @@ id toolbarText
 id tvAdminTitle
 id tvConfirmationNote
 id tvDeliveryHeader
+id tvGreeting
 id tvHeading
 id tvMessage
 id tvNoProducts
-id tvRecommendedHeader
+id tvNoResults
+id tvRecentlyViewedHeader
+id tvRecommendedTitle
 id tvSelectedProduct
+id tvTryOnTipsTitle
 id userEmail
 id userName
 id userRecyclerView
 id username
+id viewFlipperTips
 id viewReportsCard
 layout activity_add_product
 layout activity_admin_dashboard
@@ -330,6 +345,8 @@ layout item_category
 layout item_chat_message
 layout item_list_row
 layout item_product
+layout item_recentlyviewed_clothing
+layout item_recommended_clothing
 menu bottom_nav_menu
 menu cart_action_mode
 menu cart_selection_menu

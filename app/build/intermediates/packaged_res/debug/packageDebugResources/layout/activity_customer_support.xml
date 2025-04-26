@@ -50,6 +50,6 @@
         android:layout_marginTop="32dp"
         android:background="@drawable/circular_border"
         android:text="Send Inquiry"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/purple"
         android:textSize="22sp"/>
 </LinearLayout>

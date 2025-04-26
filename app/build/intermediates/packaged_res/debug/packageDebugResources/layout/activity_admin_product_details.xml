@@ -21,12 +21,14 @@
         android:id="@+id/editTextProductName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:hint="Product Name" />
 
     <EditText
         android:id="@+id/editTextProductPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:hint="Product Price"
         android:inputType="numberDecimal" />
 
@@ -34,10 +36,9 @@
         android:id="@+id/editTextProductDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:hint="Product Description"
         android:inputType="textMultiLine" />
-
-
 
     <Button
         android:id="@+id/btnUpdateProduct"

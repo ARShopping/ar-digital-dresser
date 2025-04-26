@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -30,12 +31,17 @@ public final class ActivityProductListBinding implements ViewBinding {
   @NonNull
   public final Toolbar toolbar;
 
+  @NonNull
+  public final TextView tvNoResults;
+
   private ActivityProductListBinding(@NonNull LinearLayout rootView, @NonNull ImageView cartIcon,
-      @NonNull RecyclerView recyclerViewProducts, @NonNull Toolbar toolbar) {
+      @NonNull RecyclerView recyclerViewProducts, @NonNull Toolbar toolbar,
+      @NonNull TextView tvNoResults) {
     this.rootView = rootView;
     this.cartIcon = cartIcon;
     this.recyclerViewProducts = recyclerViewProducts;
     this.toolbar = toolbar;
+    this.tvNoResults = tvNoResults;
   }
 
   @Override
@@ -83,8 +89,14 @@ public final class ActivityProductListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvNoResults;
+      TextView tvNoResults = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoResults == null) {
+        break missingId;
+      }
+
       return new ActivityProductListBinding((LinearLayout) rootView, cartIcon, recyclerViewProducts,
-          toolbar);
+          toolbar, tvNoResults);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
