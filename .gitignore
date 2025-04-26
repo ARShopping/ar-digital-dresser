@@ -15,5 +15,6 @@
 local.properties
 
 # Ignore build files
+*.apk
 /app/build/
-/*.apk
+
